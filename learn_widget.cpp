@@ -62,7 +62,7 @@ LearnWidget::LearnWidget(QWidget *parent)
 
         "After you get your first two cards you can Double Down.\n"
         "You double your bet, then receive exactly one card and stand with the total you have.\n"
-        "Some casinos allow you to double for less than your original bet, but if you're"
+        "Some casinos allow you to double for less than your original bet, but if you're\n"
         " following basic strategy, you shouldn't do this.",
 
         "If your first two cards have the same value, you can Split into two hands.\n"
@@ -95,18 +95,18 @@ LearnWidget::LearnWidget(QWidget *parent)
         "\t - Cards 7-9 count as +0\n"
         "\t - 10, J, Q, K, A count as -1\n"
         "\n"
-        "As you see cards being dealt, you'll add these values to a number in your head. That"
+        "As you see cards being dealt, you'll add these values to a number in your\n head. That"
         " number is called the \"running count\".\n"
-        "In contrast to the running count, the \"true count\" is the running count divided by"
+        "In contrast to the running count, the \"true count\" is the running count\n divided by"
         " the number of decks remaining.\n"
-        "A high true count tells us the deck is rich in 10s and aces, while a negative true count"
+        "A high true count tells us the deck is rich in 10s and aces, while a negative true count\n"
         " tells us that the deck contains mostly low cards.\n"
         "\n"
-        "Generally, you should bet the minimum amount if the true count is below one. If the true"
-        " count is above 1, a common betting spread is to bet one \"betting unit\" for each positive"
-        " true count. You can choose how much you want a betting unit to be based on the size of"
-        " your bankroll. Larger betting units make you money at a faster rate, but increase the risk"
-        " of ruin (ROR)—the chance of losing your entire bankroll. Smaller betting units are less"
+        "Generally, you should bet the minimum amount if the true count is below one. If the true\n"
+        " count is above 1, a common betting spread is to bet one \"betting unit\" for each positive\n"
+        " true count. You can choose how much you want a betting unit to be based on the size of\n"
+        " your bankroll. Larger betting units make you money at a faster rate, but increase the risk\n"
+        " of ruin (ROR)—the chance of losing your entire bankroll. Smaller betting units are less\n"
         " profitable, but safer.",
 
         "If the current running count is a 0, and the current round shows an ace, a 2, and a 6,"
